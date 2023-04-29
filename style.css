@@ -1,72 +1,72 @@
-.body{
+.body {
   display: flex;
-  background-color: #E5E5E5;;
+  background-color: #e5e5e5;
 }
-.header{
-  background-color: #3E3C3C;
+.header {
+  background-color: #3e3c3c;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1440px;
   height: 72px;
 }
-.container-logo{
+.container-logo {
   width: 84px;
   height: 20px;
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 150px;
 }
-.nav-list{
-  list-style:none;
+.nav-list {
+  list-style: none;
   display: flex;
   justify-content: space-around;
 }
-.navbar  a {
-  color: #FFFFFF;
+.navbar a {
+  color: #fff;
   margin-left: 32px;
   margin-right: 32px;
   font-size: 24px;
   width: 63px;
   height: 20px;
 }
-.navbar  img {
+.navbar img {
   margin-right: 151px;
   height: 40px;
 }
 
 
 /* for-mobile-header */
-.mobile-header{
+.mobile-header {
   height: 92px;
   width: 375px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  display:flex;
-  align-items:end;
+  /* left: 0px;                                       //borrar */
+  /* top: 0px;                                        //borrar */
+  /* border-radius: 0px;                              //borrar */
+  /* display: flex;                                    borrar */
+  align-items: end;
   justify-content: space-between;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   display: none;
 }
-.mobile-container-logo{
+.mobile-container-logo {
   padding-bottom: 12px;
   padding-left: 24px;
 }
-.mobile-navbar button{
-  padding-right: 32px;padding-bottom: 12px;
-  border: 0px;
-  background-color: #3C3A39;;
+.mobile-navbar button {
+  /* padding-right: 32px;  padding-bottom: 12px;           colocar linea nueva osea separar los dos comandos */
+  /* border: 0px;                                    //borrar  */
+  background-color: #3c3a39;
 }
 
 
 /* "headline-section" */
 
-.headline-section{
-  background-image: url(./images/Illustration-header.png) ;
+.headline-section {
+  background-image: url(./images/Illustration-header.png);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right 0px;
+  /* background-position: right 0px;                    //borrar */
   background-position:bottom 0px ;
   background-color: #1C1A19;
   height: 870px;
@@ -232,16 +232,7 @@ h1{
     height: 123px;
     color: #FFFFFF;
     width: 400;
-    font-size: 16PX;
+    font-size: 16px;
     line-height: 24px;
   }
 }
-
-
-
-
-  
-
-
-
-
