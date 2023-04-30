@@ -125,7 +125,7 @@ h1 {
   line-height: 44px;
 }
 
-.headline-content p {
+.paragraf-title {
   margin: 0;
   color: #fff;
   width: 566px;
@@ -181,7 +181,7 @@ h1 {
   }
 
   .headline-content {
-    /* background-position:bottom ; */
+    width: 330px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -238,11 +238,11 @@ h1 {
     line-height: 32px;
   }
 
-  .headline-content p {
+  .paragraf-title {
+    width: 327px;
     height: 123px;
     margin-top: 12px;
     color: #fff;
-    width: 400;
     font-size: 16px;
     line-height: 24px;
   }
