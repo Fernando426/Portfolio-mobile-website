@@ -38,6 +38,10 @@ header {
   align-items: center;
 }
 
+  a {
+    text-decoration: none;
+  }
+
 .nav-list {
   background-color: #3e3c3c;
   padding: 0;
@@ -243,9 +247,5 @@ header {
   .links-logos img {
     margin-left: 0;
     padding: 0;
-  }
-
-  a {
-    text-decoration: none;
   }
 }
