@@ -38,9 +38,9 @@ header {
   align-items: center;
 }
 
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
 .nav-list {
   background-color: #3e3c3c;
