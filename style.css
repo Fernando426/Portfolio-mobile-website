@@ -1,14 +1,23 @@
 * {
   margin: 0;
+  padding: 0;
+}
+
+html {
+  position: absolute;
+  z-index: -1;
 }
 
 body {
+  position: relative;
+  z-index: 2;
   width: 100%;
   height: 100%;
   background-color: #1c1a19;
 }
 
 header {
+  position: fixed;
   background-color: #3c3a39;
   width: 100%;
   height: 48px;
@@ -42,6 +51,22 @@ a {
   justify-content: space-between;
   display: none;
   list-style: none;
+}
+
+.multi-post-stories img {
+  width: 327px;
+  height: 237px;
+  margin-left: 28px;
+}
+
+.aboutme-habilities img {
+  margin-right: 20px;
+}
+
+.aboutme img {
+  width: 320px;
+  margin-bottom: 12px;
+  margin-left: 10px;
 }
 
 .mobile-navbar button {
@@ -127,6 +152,7 @@ a {
 
 @media screen and (min-width: 768px) {
   header {
+    position: fixed;
     background-color: #3c3a39;
     width: 100%;
     height: 72px;
@@ -238,4 +264,427 @@ a {
     margin-left: 0;
     padding: 0;
   }
+}
+
+/* works section */
+.works-conteiner {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(118, 182, 255);
+  display: grid;
+}
+
+.works-content {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  margin-top: 120px;
+  margin-bottom: 44px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.vector-line {
+  margin-bottom: 80px;
+}
+
+.multi-post-stories {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+.subtitle2 {
+  margin-top: 24px;
+  margin-left: 30px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.paragraf01 {
+  width: 327px;
+  height: 147px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ul-tecnologies {
+  margin-left: 30px;
+  width: 80%;
+  padding: 0;
+  display: flex;
+}
+
+.ul-tecnologies li {
+  margin-right: 12px;
+  padding: 10px 12px;
+  width: 55px;
+  height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.see-Proyect {
+  background-color: #ff6b00;
+  color: #fff;
+  margin-left: 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 124px;
+  height: 48px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* some works------------------------------ */
+.works-conteiner2 {
+  margin-top: 72px;
+  padding-left: 32px;
+  background-color: #e5e5e5;
+  width: 100%;
+  display: grid;
+}
+
+.works-1 {
+  color: #fff;
+  background-color: rgb(51, 32, 197);
+  background-image: url(./images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 327px;
+}
+
+.subtitle3 {
+  margin-top: 72px;
+  margin-left: 12px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.paragraf03 {
+  width: 250px;
+  height: 99px;
+  margin-left: 13px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ul-tecnologies2 {
+  margin-left: 15px;
+  width: 80%;
+  padding: 0;
+  display: flex;
+}
+
+.ul-tecnologies2 li {
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+  padding: 10px 12px;
+  width: 55px;
+  height: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.see-Proyect2 {
+  background-color: #ff6b00;
+  color: #fff;
+  margin-top: 32px;
+  margin-bottom: 0;
+  width: 100%;
+  height: 54px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.works-2 {
+  color: #fff;
+  margin-right: 20px;
+  background-image: url(./images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 327px;
+}
+
+.works-3 {
+  color: #fff;
+  margin-right: 20px;
+  background-color: rgb(65, 197, 32);
+  background-image: url(./images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 327px;
+}
+
+.works-4 {
+  color: #fff;
+  margin-right: 20px;
+  background-color: rgb(181, 32, 197);
+  background-image: url(./images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 327px;
+}
+
+.works-5 {
+  color: #fff;
+  margin-right: 20px;
+  background-color: rgb(255, 0, 0);
+  background-image: url(./images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 327px;
+}
+
+.works-6 {
+  color: #fff;
+  margin-right: 20px;
+  background-color: rgb(255, 239, 9);
+  background-image: url(./images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 327px;
+}
+
+/* About me section */
+
+.aboutme-container {
+  background-color: #1c1a19;
+  width: 100%;
+  display: grid;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  color: #fff;
+  background-color: #1c1a19;
+  width: 375px;
+  background-image: url(./images/Frame2.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: 92%;
+  background-position-x: 245px;
+}
+
+.aboutme h2 {
+  color: #ff6b00;
+  padding-top: 120px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 88px;
+}
+
+.aboutme p {
+  width: 280px;
+  margin-top: 20px;
+  color: #f4f5f7;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.resume-button {
+  background-color: #ff6b00;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 209px;
+  width: 156px;
+  height: 48px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* ------------------------------ */
+
+.aboutme-habilities {
+  width: 405px;
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme-habilities .h3 {
+  color: #fff;
+  margin-bottom: 42px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.ul-language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  list-style: none;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.ul-language li {
+  margin-bottom: 32px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.ul-last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  list-style: none;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  margin-bottom: 55px;
+}
+
+.ul-last li {
+  margin-bottom: 32px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+/* ----------------------------- */
+
+.aboutme-contact {
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.aboutme-contact p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  border: 3px solid rgb(108, 89, 204);
+  margin-top: 69px;
+  margin-bottom: 41px;
+}
+
+.aboutme-contact input {
+  width: 280px;
+  border: none;
+  color: #979493;
+  margin-bottom: 12px;
+  margin-top: 39px;
+}
+
+.aboutme-contact textarea {
+  color: #3c3a39;
+  border: none;
+  background-color: #f8f4f2;
+  margin-top: 24px;
+}
+
+.vector-last {
+  width: 405px;
+}
+
+.links-logos2 {
+  margin-top: 25px;
+  margin-bottom: 47px;
+  padding: 0;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.resume-button2 {
+  background-color: #ff6b00;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 78px;
+  width: 156px;
+  height: 48px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.vector-shape {
+  margin-right: 30px;
+  margin-bottom: 11px;
 }
