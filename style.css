@@ -586,13 +586,14 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
+  /* width: 80%; */
 }
 
 .aboutme-contact p {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 95%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -601,7 +602,7 @@ a {
   text-align: center;
   margin-top: 69px;
   margin-bottom: 41px;
-  margin-right: 28px;
+  margin-left: 7px;
 }
 
 .aboutme-contact input {
@@ -652,7 +653,7 @@ a {
   color: #fff;
   margin-top: 24px;
   margin-bottom: 78px;
-  margin-right: 24px;
+  margin-left: 24%;
   width: 156px;
   height: 48px;
   font-family: 'Inter'sans-serif;
@@ -681,6 +682,11 @@ a {
 .vector-shape {
   margin-right: 30px;
   margin-bottom: 11px;
+}
+
+.aboutme-contact-date {
+  list-style: none;
+  width: 80%;
 }
 
 @media screen and (min-width: 768px) {
