@@ -1904,3 +1904,16 @@ a {
     display: none;
   }
 }
+
+/* animation logo */
+.logo {
+  overflow: hidden;
+  margin-left: 10px;
+  filter: drop-shadow(0px 0px 10px #ff7220);
+  animation: rotation 10s linear infinite;
+}
+
+.logo {
+  cursor: pointer;
+  overflow: hidden;
+}
