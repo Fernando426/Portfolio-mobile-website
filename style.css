@@ -37,6 +37,26 @@ header {
 .logo {
   width: 80px;
   height: 34px;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: 10px;
+  filter: drop-shadow(0 0 10px #ff7220);
+  animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(180deg);
+  }
+
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+.logo:hover {
+  filter: drop-shadow(0 -10px 20px #fff);
+  animation: rotation 15s linear infinite;
 }
 
 .navbar {
@@ -1903,17 +1923,4 @@ a {
   .vector-shape {
     display: none;
   }
-}
-
-/* animation logo */
-.logo {
-  overflow: hidden;
-  margin-left: 10px;
-  filter: drop-shadow(0px 0px 10px #ff7220);
-  animation: rotation 10s linear infinite;
-}
-
-.logo {
-  cursor: pointer;
-  overflow: hidden;
 }
