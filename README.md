@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](file:///C:/Users/FERNANDO.M.L/Desktop/Portfolio-mobile-website/index.html)
+- [Live Demo Link](https://fernando426.github.io/Portfolio-mobile-website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
