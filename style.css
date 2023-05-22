@@ -1924,3 +1924,22 @@ a {
     display: none;
   }
 }
+
+/* mobile menu */
+
+.img-close {
+  color: #67798e;
+  width: 33px;
+  height: 33px;
+}
+
+.mobile-menu {
+  height: 100%;
+  position: fixed;
+  width: 0;
+  background: #3c3a39;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}

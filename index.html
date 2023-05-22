@@ -42,11 +42,30 @@
         </ul>
         <div>
             <nav class="mobile-navbar">
-              <button><img src="./images/burgerMenu.png" alt="burgerMenu"></button>
+              <button><img src="./images/burgerMenu.png" alt="burgerMenu" onclick ="opneNave();"></button>
             </nav>
         </div>
       </nav>
   </header>
+
+  <div class="mobile-menu" id="mobileNave">
+     <img onclick="closeNave();" class="img-close" src="./images/close.svg" alt="">
+    <ul class="nav-list"> 
+      <li>
+        <a href="#" class="section-navbar">Portoflio</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li>
+        <a href="#"><img src="./images/Icon - Mail.png" alt=""></a>
+      </li>
+    </ul>
+  </div>
+
   <main>
     <section class="headline-section">
       <div class="headline-content">
@@ -239,5 +258,8 @@
       <img src="./images/Shape.png" alt="vector" class="vector-shape">
     </div>
   </section>
+
+    <script src="assets/script.js"> </script>
+
 </body>
 </html>
