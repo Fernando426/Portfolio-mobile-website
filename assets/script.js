@@ -4,3 +4,6 @@ function opneNave() {
 function closeNave() {
   document.getElementById('mobileNave').style.width = '0';
 }
+
+opneNave();
+closeNave();
