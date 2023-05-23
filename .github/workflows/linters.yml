@@ -33,7 +33,7 @@ jobs:
         - name: Webhint Report
           run: npx hint .
   eslint:
-    name: ESLint
+    name: ESLintgit
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3

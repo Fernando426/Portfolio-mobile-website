@@ -164,9 +164,8 @@ I would like to first thank the team and the platform as such at Microverse for 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ  <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[When will the new features be ready?]**
 
