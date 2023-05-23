@@ -24,7 +24,7 @@
 - [📝 License](#license)
 
 
-# 📖 [PORTFOLIO-MOBILE-WEBSITE] <a name="about-project"></a>
+# 📖 PORTFOLIO-MOBILE-WEBSITE <a name="about-project"></a>
 
 **[PORTFOLIO-MOBILE-WEBSITE]** is a proyect was created to exercise good code and version control practices in the area of ​​web development.
 
