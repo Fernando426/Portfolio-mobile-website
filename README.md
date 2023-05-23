@@ -20,11 +20,10 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
-# 📖 [PORTFOLIO-MOBILE-WEBSITE] <a name="about-project"></a>
+# 📖 PORTFOLIO-MOBILE-WEBSITE <a name="about-project"></a>
 
 **[PORTFOLIO-MOBILE-WEBSITE]** is a proyect was created to exercise good code and version control practices in the area of ​​web development.
 
@@ -117,10 +116,12 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Authors <a name="Fernando Montes"></a>
+👤 **Ali Akbar Sazish**
+- GitHub: [@githubhandle](https://github.com/akbarsazish)
+- Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
 
-
-👤 **Author1**
+👤 **Fernando Montes**
 
 - GitHub: [@Fernando426](https://github.com/Fernando426)
 - Twitter: [@Fernando_426_](https://twitter.com/Fernando_426_)
@@ -163,9 +164,8 @@ I would like to first thank the team and the platform as such at Microverse for 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ  <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[When will the new features be ready?]**
 

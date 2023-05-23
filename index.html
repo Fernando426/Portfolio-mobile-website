@@ -28,13 +28,13 @@
       <nav class="navbar">
         <ul class="nav-list"> 
           <li>
-            <a href="#" class="section-navbar">Portoflio</a>
+            <a href="#intro">Portoflio</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#aboutme-container">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             <a href="#"><img src="./images/Icon - Mail.png" alt=""></a>
@@ -42,32 +42,23 @@
         </ul>
         <div>
             <nav class="mobile-navbar">
-              <button><img src="./images/burgerMenu.png" alt="burgerMenu" onclick ="opneNave();"></button>
+              <button><img src="./images/burgerMenu.png" alt="burgerMenu" onclick ="opneNave();" class="image-burger-menu"></button>
             </nav>
         </div>
       </nav>
   </header>
-
-  <div class="mobile-menu" id="mobileNave">
-     <img onclick="closeNave();" class="img-close" src="./images/close.svg" alt="">
-    <ul class="nav-list"> 
-      <li>
-        <a href="#" class="section-navbar">Portoflio</a>
-      </li>
-      <li>
-        <a href="#">About</a>
-      </li>
-      <li>
-        <a href="#">Contact</a>
-      </li>
-      <li>
-        <a href="#"><img src="./images/Icon - Mail.png" alt=""></a>
-      </li>
-    </ul>
-  </div>
-
+  
   <main>
-    <section class="headline-section">
+    <section class="mobile-menu" id="mobileNave">
+      <ul class="nav-list2"> 
+        <img onclick="closeNave();" class="img-close" src="./images/Icon_X_.png" alt="">
+        <li class="mobile-link" onclick="closeNave();"><a href="#" >Portoflio</a></li>
+        <li class="mobile-link" onclick="closeNave();"><a href="#aboutme-container" >About</a></li>
+        <li class="mobile-link" onclick="closeNave();"><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+
+    <section class="headline-section" id="intro">
       <div class="headline-content">
         <h1>Hey There.<br> I’m Fernando.</h1>
         <h2 class="title">I'm a software Developer</h2>
@@ -200,7 +191,7 @@
     </div>
   </section>  
 
-  <section class="aboutme-container">
+  <section class="aboutme-container" id="aboutme-container">
     <div class="aboutme">
       <h2>About me</h2>
       <p>
@@ -235,7 +226,7 @@
       </ul>
     </div>
 
-    <section class="aboutme-contact">
+    <section class="aboutme-contact" id="contact">
       <form class="aboutme-contact" action="https://formspree.io/f/xyyavgyp" method="POST">
         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         <div class="aboutme-contact2">
