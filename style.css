@@ -20,6 +20,23 @@ body {
   background-color: #fff9;
 }
 
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 240ms ease-in-out;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+ 
 header {
   position: fixed;
   background-color: #3c3a39;
@@ -1175,7 +1192,7 @@ a {
     margin-bottom: 130px;
     padding-left: 11%;
   }
-
+/* 
   .see-Proyect2 {
     background-color: #ff6b00;
     color: #fff;
@@ -1189,7 +1206,7 @@ a {
     font-size: 17px;
     line-height: 24px;
     display: none;
-  }
+  } */
 
   .works-1 {
     display: flex;
@@ -2037,3 +2054,197 @@ a {
     transform: scale(1) rotateX(0deg);
   }
 }
+
+/* mobile menu2 */
+
+.eachWork {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(26, 30, 19);
+}
+
+.eachWork_title_Content {
+  /* display: block; */
+  position: relative;
+  position: fixed;
+  top: 10%;
+  width: 90%;
+  background-color: #fff;
+  transition: 1s;
+}
+
+.eachWork_title_Content h2 {
+  /* background-color: aqua; */
+  position: relative;
+  top: 2rem;
+  height: 82px;
+  width: 80%;
+  padding-left: 1rem;
+  padding-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.img-X {
+  position: absolute;
+  top: 2.9rem;
+  left: 85%;
+  width: 1rem;
+  height: 1rem;
+}
+
+.tecnologies {
+  /* position: relative; */
+  /* background-color: #7e2f01; */
+  width: 300px;
+  display: flex;
+  align-items: start;
+  margin-left: 1rem;
+  margin-bottom: 24px;
+}
+
+.tecnologies li {
+  /* background-color: burlywood; */
+  margin-right: 12px;
+  padding: 10px 12px;
+  height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  list-style: none;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.eachWorkImgContent {
+  /* background-color: #7e2f01; */
+  margin-left: 1rem;
+}
+
+.eachWorkImg {
+  width: 95%;
+  height: auto;
+  max-width: 659px;
+  margin-bottom: 24px;
+}
+
+.container_inf_button {
+  /* background: #3b1702; */
+  margin-left: 1rem;
+  width: 90%;
+  /* background: #3b1702; */
+}
+
+.container_inf_button p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 16px;
+  max-width: 424px;
+}
+
+.containerEachWorkButton {
+  /* background-color: #176559; */
+  display: flex;
+  justify-content: space-between;
+  width: 311px;
+}
+
+#liveBtn,
+#sourceBtn {
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+#liveBtn img,
+#sourceBtn img {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .eachWork_title_Content h2 {
+    /* background-color: aqua; */
+    position: relative;
+    top: 2rem;
+    height: 82px;
+    width: 80%;
+    padding-left: 1rem;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .tecnologies {
+    /* position: relative; */
+    /* background-color: #7e2f01; */
+    width: 300px;
+    display: flex;
+    align-items: start;
+    margin-left: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .eachWorkImgContent {
+    /* background-color: #7e2f01; */
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerEachWorkButton {
+    /* background-color: #2ebaa5; */
+    display: flex;
+    justify-content: space-between;
+    width: 308px;
+    margin-top: 64px;
+  }
+
+  .container_inf_button p {
+    /* background-color: #ba2eaa; */
+    max-width: 95%;
+
+  }
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #c1c7c0;
+  background-color: rgba(0,0,0,0.4); 
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+

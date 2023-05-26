@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-  <title>Document3</title>
+  <title>Portfolio Fernando.M</title>
 </head>
 <body>
   <header class="header">
@@ -68,24 +68,15 @@
         </p>
       </div>
       <ul class="links-logos">
-        <li>
-          <a href="https://github.com/Fernando426"><img src="./images/gitHub.png" alt="" class="icons-social"></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/fernando-jose-montes-linares-523822270/"><img src="./images/Frame.png" alt="" class="icons-social"></a>
-        </li>
-        <li>
-          <a href="#"><img src="./images/Icon - Angelist.png" alt="" class="icons-social"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/Fernando_426_"><img src="./images/Icon - Twitter.png" alt="" class="icons-social"></a>
-        </li>
-        <li>
-          <a href="#"><img src="./images/Icon - Medium.png" alt="" class="icons-social"></a>
-        </li>
+        <li><a href="https://github.com/Fernando426"><img src="./images/gitHub.png" alt="" class="icons-social"></a></li>
+        <li><a href="https://www.linkedin.com/in/fernando-jose-montes-linares-523822270/"><img src="./images/Frame.png" alt="" class="icons-social"></a></li>
+        <li><a href="#"><img src="./images/Icon - Angelist.png" alt="" class="icons-social"></a></li>
+        <li><a href="https://twitter.com/Fernando_426_"><img src="./images/Icon - Twitter.png" alt="" class="icons-social"></a></li>
+        <li><a href="#"><img src="./images/Icon - Medium.png" alt="" class="icons-social"></a></li>
       </ul>
     </section>  
   </main> 
+
   <section class="works-container">
     <article class="works">
       <div class="works-content">
@@ -93,7 +84,7 @@
         <img class="vector01" src="./images/Vector.png" alt="" class="vector-line">
       </div>
 
-      <article class="multi-post-stories">
+      <article class="multi-post-stories" id="post1">
         <img src="./images/Img Placeholder-desto.png" alt="" srcset="">
         <div class="multi-box">
           <h2 class="subtitle2">Multi-Post Stories</h2>
@@ -106,7 +97,39 @@
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="see-Proyect">See project</button>
+          <button onclick="showProjectDetails(0)" class="see-Proyect" id="seeProyectButton">See project</button>
+        </div>
+      </article>
+      <article class="multi-post-stories" id="post2">
+        <img src="./images/Img Placeholder-desto.png" alt="" srcset="">
+        <div class="multi-box">
+          <h2 class="subtitle2">Multi-Post Stories</h2>
+          <p class="paragraf01">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <ul class="ul-tecnologies"> 
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button onclick="showProjectDetails(1)" class="see-Proyect" id="seeProyectButton">See project</button>
+        </div>
+      </article>
+      <article class="multi-post-stories" id="post2">
+        <img src="./images/Img Placeholder-desto.png" alt="" srcset="">
+        <div class="multi-box">
+          <h2 class="subtitle2">Multi-Post Stories</h2>
+          <p class="paragraf01">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <ul class="ul-tecnologies"> 
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button onclick="showProjectDetails(3)" class="see-Proyect" id="seeProyectButton">See project</button>
         </div>
       </article>
     </article>
@@ -249,6 +272,12 @@
       <img src="./images/Shape.png" alt="vector" class="vector-shape">
     </div>
   </section>
+
+  <div class="eachWork" id="eachWork">
+        <div class="eachWork_title_Content" id="eachWork_title_Content">
+
+    </div>
+  </div>
 
     <script src="assets/script.js"> </script>
 
