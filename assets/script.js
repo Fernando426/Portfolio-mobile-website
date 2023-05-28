@@ -60,10 +60,8 @@ const works = [
   },
 ];
 
-// Obtén una referencia al contenedor
 const worksContainer = document.querySelector('.works-conteiner2');
 
-// Genera el contenido HTML para cada proyecto
 const worksHTML = works.map((project) => `
   <div class = works-1>
     <h2 class="subtitle-works-1">${project.title}</h2>
@@ -78,10 +76,9 @@ const worksHTML = works.map((project) => `
   </div>
 `).join('');
 
-// Inserta el contenido HTML generado en el contenedor
 worksContainer.innerHTML = worksHTML;
 
-// /pop-up/-------------------
+/*---------------------------pop-up------------------------*/
 
 const body = document.querySelector('body');
 const openModal = document.querySelectorAll('.see-Proyect, .see-Proyect-works-1');
