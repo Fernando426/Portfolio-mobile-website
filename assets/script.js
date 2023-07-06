@@ -60,10 +60,8 @@ const works = [
   },
 ];
 
-// Obtén una referencia al contenedor
 const worksContainer = document.querySelector('.works-conteiner2');
 
-// Genera el contenido HTML para cada proyecto
 const worksHTML = works.map((project) => `
   <div class = works-1>
     <h2 class="subtitle-works-1">${project.title}</h2>
@@ -78,10 +76,9 @@ const worksHTML = works.map((project) => `
   </div>
 `).join('');
 
-// Inserta el contenido HTML generado en el contenedor
 worksContainer.innerHTML = worksHTML;
 
-// /pop-up/-------------------
+// *pop-up*
 
 const body = document.querySelector('body');
 const openModal = document.querySelectorAll('.see-Proyect, .see-Proyect-works-1');
@@ -127,3 +124,17 @@ openModal.forEach((button) => {
     });
   });
 });
+
+/* -----------------Validation-Form ---------------------*/
+// const form = document.querySelector('.aboutme-contact2');
+// const errorElement = document.querySelector('.error-message');
+// form.addEventListener('submit', (event) => {
+//   const emailInput = document.getElementById('mail');
+//   const emailValue = emailInput.value;
+//   if (emailValue !== emailValue.toLowerCase()) {
+//     errorElement.textContent = 'Email must be in lowercase';
+//     const submitButton = document.querySelector('.resume-button2');
+//     submitButton.parentNode.insertBefore(errorElement, submitButton);
+//     event.preventDefault();
+//   }
+// });
