@@ -78,7 +78,7 @@ const worksHTML = works.map((project) => `
 
 worksContainer.innerHTML = worksHTML;
 
-// *pop-up*
+//  *pop-up*
 
 const body = document.querySelector('body');
 const openModal = document.querySelectorAll('.see-Proyect, .see-Proyect-works-1');
