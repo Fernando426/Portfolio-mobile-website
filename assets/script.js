@@ -64,7 +64,7 @@ const worksContainer = document.querySelector('.works-conteiner2');
 
 const worksHTML = works.map((project) => `
   <div class = works-1>
-    <h2 class="subtitle-works-1">${project.title}</h2>
+    <h2 class="subtitle-works-1 create-family">${project.title}</h2>
     <p class="paragraf-works-1">${project.description}</p>
     <img class="img-feature" src="${project.featuredImage}" alt="${project.title}">
     <ul class="ul-tecnologies-works-1">
@@ -78,7 +78,7 @@ const worksHTML = works.map((project) => `
 
 worksContainer.innerHTML = worksHTML;
 
-// *pop-up*
+//  *pop-up*
 
 const body = document.querySelector('body');
 const openModal = document.querySelectorAll('.see-Proyect, .see-Proyect-works-1');

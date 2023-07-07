@@ -1,6 +1,19 @@
+/* Utilities */
+.primary-color {
+  color: #ff6b00;
+}
+
+.create-family {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* ----------------------------------- */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -124,11 +137,7 @@ a {
 }
 
 .headline-content h1 {
-  color: #ff6b00;
   width: 100%;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 52px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -189,9 +198,6 @@ a {
 .subtitle {
   margin-top: 120px;
   margin-bottom: 44px;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   margin-right: 24px;
@@ -211,9 +217,6 @@ a {
 .subtitle2 {
   margin-top: 24px;
   margin-left: 26px;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 32px;
   line-height: 44px;
 }
@@ -317,9 +320,6 @@ a {
 .subtitle-works-1 {
   margin-top: 72px;
   margin-left: 12px;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 32px;
   line-height: 44px;
 }
@@ -416,12 +416,8 @@ a {
 }
 
 .aboutme h2 {
-  color: #ff6b00;
   padding-top: 120px;
   padding-left: 20px;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 64px;
   line-height: 88px;
 }
@@ -727,14 +723,8 @@ a {
 
   .headline-content h1 {
     margin-top: 192px;
-    color: #f55800;
-    width: 100%;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    letter-spacing: 0.37px;
   }
 
   .headline-content h2 {
@@ -817,9 +807,6 @@ a {
   .subtitle2 {
     margin-top: 0;
     margin-left: 26px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 40px;
     line-height: 52px;
   }
@@ -919,9 +906,6 @@ a {
   .subtitle-works-1 {
     margin-top: 72px;
     margin-left: 12px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
   }
@@ -1034,9 +1018,6 @@ a {
   .subtitle-works-2 {
     margin-top: 72px;
     margin-left: 12px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
   }
@@ -1119,9 +1100,6 @@ a {
   .subtitle-works-3 {
     margin-top: 72px;
     margin-left: 12px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
   }
@@ -1204,9 +1182,6 @@ a {
   .subtitle-works-4 {
     margin-top: 72px;
     margin-left: 12px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
   }
@@ -1289,9 +1264,6 @@ a {
   .subtitle-works-5 {
     margin-top: 72px;
     margin-left: 12px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
   }
@@ -1374,9 +1346,6 @@ a {
   .subtitle-works-6 {
     margin-top: 72px;
     margin-left: 12px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
   }
@@ -1457,17 +1426,6 @@ a {
     background-position: right bottom 0;
   }
 
-  .aboutme h2 {
-    color: #ff6b00;
-    padding-top: 120px;
-    padding-left: 20px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 82px;
-  }
-
   .aboutme p {
     width: 40%;
     margin-top: 20px;
@@ -1509,7 +1467,7 @@ a {
     padding-top: 124px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
   }
 
@@ -1933,8 +1891,8 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    display: block;
     width: 95%;
+    display: block;
   }
 
   .description {
@@ -1955,8 +1913,8 @@ a {
 
 .modal {
   z-index: 1;
-  left: 0;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
