@@ -572,6 +572,28 @@ a {
   margin-bottom: 41px;
 }
 
+.aboutme-contact input {
+  width: 280px;
+  border: none;
+  color: #979493;
+  margin-bottom: 12px;
+  margin-top: 39px;
+  border-bottom: 1px solid #dbd8d7;
+  padding-bottom: 14px;
+}
+
+.aboutme-contact textarea {
+  color: #3c3a39;
+  border: none;
+  background-color: #f8f4f2;
+  margin-top: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .aboutme-footer {
   width: 100%;
   background-color: #fff;
