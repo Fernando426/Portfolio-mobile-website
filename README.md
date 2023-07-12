@@ -116,10 +116,10 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-👤 **Ali Akbar Sazish**
-- GitHub: [@githubhandle](https://github.com/akbarsazish)
-- Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
+👤 **Happi Gilbert**
+- GitHub: [@githubhandle](https://github.com/gilberthappi)
+- Twitter: [@twitterhandle](https://twitter.com/dushimimanagl3)
+- LinkedIn: [LinkedIn](https://www.https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
 
 👤 **Fernando Montes**
 
