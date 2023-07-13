@@ -47,32 +47,6 @@ header {
   margin-left: 10px;
 }
 
-.logo {
-  width: 80px;
-  height: 34px;
-  cursor: pointer;
-  overflow: hidden;
-  margin-left: 10px;
-  filter: drop-shadow(0 0 10px #ff7220);
-  animation: rotation 10s linear infinite;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotateY(180deg);
-  }
-
-  to {
-    transform: rotateY(-360deg);
-  }
-}
-
-.logo:hover {
-  filter: drop-shadow(0 -10px 20px #fff);
-  animation: rotation 10s linear infinite;
-  transition: transform 0.3s ease-out;
-}
-
 .navbar {
   display: flex;
   align-items: center;
