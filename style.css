@@ -54,7 +54,7 @@ header {
   overflow: hidden;
   margin-left: 10px;
   filter: drop-shadow(0 0 10px #ff7220);
-  animation: rotation 10s linear infinite;
+  animation: rotation 12s linear infinite;
 }
 
 @keyframes rotation {
@@ -68,7 +68,7 @@ header {
 }
 
 .logo:hover {
-  filter: drop-shadow(0 -10px 20px #fff);
+  filter: drop-shadow(0 -10px 20px #eeee);
   animation: rotation 10s linear infinite;
   transition: transform 0.3s ease-out;
 }
