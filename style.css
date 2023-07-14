@@ -719,6 +719,7 @@ a {
   }
 
   .headline-content {
+    padding-left: 0%;
     align-items: flex-start;
     width: 35%;
     height: 80%;
@@ -726,7 +727,7 @@ a {
   }
 
   .headline-content h1 {
-    margin-top: 192px;
+    margin-top: 230px;
     color: #f55800;
     width: 100%;
     font-family: 'Crete Round', serif;
@@ -762,8 +763,8 @@ a {
 
   .links-logos {
     height: 260px;
-    margin-top: 270px;
-    margin-left: 36px;
+    margin-top: 350px;
+    margin-left: -30px;
     margin-right: 88px;
     display: flex;
     flex-direction: column;
@@ -1459,7 +1460,7 @@ a {
 
   .aboutme h2 {
     color: #ff6b00;
-    padding-top: 120px;
+    padding-top: 130px;
     padding-left: 20px;
     font-family: 'Crete Round', serif;
     font-style: normal;
