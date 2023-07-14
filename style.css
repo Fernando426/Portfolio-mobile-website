@@ -726,7 +726,7 @@ a {
   }
 
   .headline-content h1 {
-    margin-top: 192px;
+    margin-top: 250px;
     color: #f55800;
     width: 100%;
     font-family: 'Crete Round', serif;
@@ -762,8 +762,8 @@ a {
 
   .links-logos {
     height: 260px;
-    margin-top: 270px;
-    margin-left: 36px;
+    margin-top: 330px;
+    margin-left: 0;
     margin-right: 88px;
     display: flex;
     flex-direction: column;
