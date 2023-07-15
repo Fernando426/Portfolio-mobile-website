@@ -81,7 +81,6 @@ a {
 .multi-post-stories img {
   width: 327px;
   height: 237px;
-  margin-left: 24px;
 }
 
 .aboutme-habilities img {
@@ -849,10 +848,13 @@ a {
     margin-top: 84px;
     background-color: #fff;
     width: 85%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 130px;
-    padding-left: 11%;
+    padding-left: 0;
+    justify-content: space-between;
+    margin-left: 10%;
   }
 
   .see-Proyect2 {
@@ -871,6 +873,7 @@ a {
   }
 
   .works-1 {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -879,11 +882,10 @@ a {
     background-color: rgb(255, 255, 255);
     background-image: url(./images/Img\ work-04.png);
     background-repeat: no-repeat;
-    background-size: auto;
-    width: 369px;
+    background-size: 100% 100%;
+    width: 30%;
     height: 435px;
     border: none;
-    margin-right: 24px;
   }
 
   .see-Proyect-works-1 {
@@ -918,6 +920,7 @@ a {
   }
 
   .subtitle-works-1 {
+    width: 90%;
     margin-top: 72px;
     margin-left: 12px;
     font-family: 'Crete Round', serif;
@@ -928,8 +931,9 @@ a {
   }
 
   .paragraf-works-1 {
-    width: 250px;
-    height: 99px;
+    overflow: hidden;
+    width: 95%;
+    height: 28%;
     margin-left: 13px;
     margin-top: 10px;
     margin-bottom: 12px;
@@ -941,6 +945,7 @@ a {
   }
 
   .ul-tecnologies-works-1 {
+    /* background-color: #7a9c60; */
     margin-left: 15px;
     margin-bottom: 20px;
     width: 80%;
@@ -949,10 +954,11 @@ a {
   }
 
   .ul-tecnologies-works-1 li {
+    overflow: hidden;
     background-color: rgba(255, 255, 255, 0.24);
     margin-right: 12px;
     padding: 10px 12px;
-    width: 55px;
+    width: 15%;
     height: 20px;
     list-style: none;
     display: flex;
@@ -1493,7 +1499,7 @@ a {
     background-color: #ff6b00;
     color: #fff;
     margin-top: 24px;
-    margin-bottom: 209px;
+    margin-bottom: 90px;
     margin-left: 20px;
     width: 156px;
     height: 48px;
