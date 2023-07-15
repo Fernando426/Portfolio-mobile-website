@@ -958,8 +958,8 @@ a {
     background-color: rgba(255, 255, 255, 0.24);
     margin-right: 12px;
     padding: 10px 12px;
-    width: 15%;
     height: 20px;
+    width: 15%;
     list-style: none;
     display: flex;
     justify-content: center;
